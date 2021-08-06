@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 173px;
+}
+
+.logo {
+    width: 96px;
+    height: 107px;
+    padding-top: 27px;
+}
+
+.nav-search {
+    width: 557px;
+    height: 48px;
+    margin-top: 30px;
+}
+
+.nav-icones {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 48px;
+    width: 100px;
+}
