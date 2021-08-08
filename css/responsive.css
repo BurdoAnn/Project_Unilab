@@ -45,6 +45,25 @@
     }
     .nav-icones {
         display: flex;
+        font-size: 10px;
+    }
+    .logo {
+        margin-top: 5px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-search {
+        display: flex;
+        width: 150px;
+        height: 30px;
+        margin-top: 40px;
+        font-size: 7px;
+        padding: 12px 20px 12px 5px;
+    }
+    .nav-icones {
+        display: flex;
     }
     .logo {
         margin-top: 5px;
