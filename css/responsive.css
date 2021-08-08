@@ -52,7 +52,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
     .nav-search {
         display: flex;
         width: 170px;
@@ -65,6 +65,7 @@
     .nav-icones {
         margin-right: 20px;
         font-size: 15px;
+        justify-content: space-between;
     }
     .logo {
         margin-top: 15px;
