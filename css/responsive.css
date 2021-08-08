@@ -63,8 +63,8 @@
         padding: 12px 20px 12px 5px;
     }
     .nav-icones {
-        display: flex;
-        margin-right: 10px;
+        margin-right: 20px;
+        font-size: 15px;
     }
     .logo {
         margin-top: 15px;
