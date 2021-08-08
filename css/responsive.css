@@ -52,12 +52,11 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 437px) {
     .nav-search {
         display: flex;
         width: 170px;
         height: 30px;
-        margin-top: 40px;
         margin-right: 20px;
         font-size: 7px;
         padding: 12px 20px 12px 5px;
