@@ -75,19 +75,20 @@
 @media (max-width: 320px) {
     .nav-search {
         display: flex;
-        width: 170px;
+        width: 175px;
         height: 25px;
-        margin-right: 10px;
+        margin-right: 15px;
         font-size: 7px;
         padding: 12px 20px 12px 5px;
+        background-size: 12px 12px;
     }
     .nav-icones {
-        margin-right: 20px;
-        font-size: 12px;
-        justify-content: space-between;
+        margin-right: 45px;
+        font-size: 10px;
+        justify-content: space-around;
     }
     .logo {
-        margin-top: 15px;
         height: 60px;
+        margin-left: 10px;
     }
 }
