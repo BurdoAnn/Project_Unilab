@@ -45,7 +45,6 @@
     }
     .nav-icones {
         display: flex;
-        font-size: 10px;
     }
     .logo {
         margin-top: 5px;
@@ -56,17 +55,19 @@
 @media (max-width: 375px) {
     .nav-search {
         display: flex;
-        width: 150px;
+        width: 170px;
         height: 30px;
         margin-top: 40px;
+        margin-right: 20px;
         font-size: 7px;
         padding: 12px 20px 12px 5px;
     }
     .nav-icones {
         display: flex;
+        margin-right: 10px;
     }
     .logo {
-        margin-top: 5px;
-        height: 100px;
+        margin-top: 15px;
+        height: 70px;
     }
 }
