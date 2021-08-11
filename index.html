@@ -5,6 +5,7 @@
     <title>ABu-Project</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
     <!-- //fb meta tags -->
     <meta property="og:url" content="https://burdoann.github.io/Project_Unilab/" />
@@ -45,7 +46,7 @@
         <div class="info-header">
             <div class="dropdown">
                 <button class="dropbtn">All Categories
-                    <i class="fa fa-caret-down"></i>
+                    <i class="fas fa-caret-square-down"></i>
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Brands</a>
@@ -55,8 +56,8 @@
                     <a href="#">Sports & Tools</a>
                 </div>
             </div>
-            <nav class="nav">
-                <ul>
+            <nav class="navbar" id="nav">
+                <ul class="nav-ul">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">New Arrivals</a></li>
                     <li><a href="#">Trending</a></li>
@@ -66,9 +67,13 @@
                     <li><a class="vendor" href="#">Become A Vendor</a></li>
                 </ul>
             </nav>
+            <div class="toggle-button" id="togglebutton">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
 
     </header>
+    <script src="script.js"></script>
 </body>
 
 </html>

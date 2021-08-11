@@ -2,6 +2,12 @@
     .header {
         display: flex;
     }
+    .toggle-button {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
 }
 
 @media (max-width: 766px) {
