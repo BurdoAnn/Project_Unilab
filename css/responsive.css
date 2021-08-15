@@ -23,6 +23,9 @@
     .hr-color {
         display: none;
     }
+    .info-header {
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 766px) {
