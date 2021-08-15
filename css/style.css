@@ -1,3 +1,5 @@
+/* search-header styles */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +42,9 @@ hr {
     height: 2px;
     border-top: #F0F0F0;
 }
+
+
+/* navigation styles */
 
 .info-header {
     display: flex;
@@ -126,6 +131,9 @@ li a:hover {
     font-weight: bold;
 }
 
+
+/* togglr-button styles */
+
 .toggle-button {
     position: relative;
     color: #FF0000;
@@ -140,8 +148,12 @@ li a:hover {
     display: none;
 }
 
+.toggle-menu {
+    display: inline-block;
+}
 
-/* slider */
+
+/* slider styles */
 
 .slider {
     display: flex;
@@ -162,4 +174,62 @@ li a:hover {
 
 .img-5 {
     object-position: 5% 60%;
+}
+
+
+/* section-2 style */
+
+.container-1 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* div-text styles */
+
+.div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.sec-2-text1 {
+    padding-top: 45px;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.sec-2-text2 {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+/* div-vide */
+
+.div-video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 372px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+video {
+    position: relative;
+}
+
+.hr-color {
+    position: absolute;
+    margin-top: 250px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(253, 221, 221)
 }

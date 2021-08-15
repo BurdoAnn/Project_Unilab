@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <!-- header-search -->
     <header>
         <div class="header">
             <div class="div-logo">
@@ -45,6 +46,7 @@
             </div>
         </div>
         <hr>
+        <!-- header-nav  -->
         <div class="info-header">
             <div class="dropdown">
                 <button class="dropbtn">All Categories
@@ -58,6 +60,7 @@
                     <a href="#">Sports & Tools</a>
                 </div>
             </div>
+            <!-- toggle-menu პრობლემა: toggle-menu მხოლოდ ორ კლიკზე მუშაობს და სლაიდერის ზემოდან არ გამოდის ნაწერები-->
             <div class="toggle-menu">
                 <nav class="navbar" id="nav">
                     <ul class="nav-ul">
@@ -77,6 +80,9 @@
             </div>
         </div>
     </header>
+
+    <!-- section-slider პრობლემა slider tods ვერ ვუცვლი ფორმას და ფოტოების პოზიციის შეცვლა თუ შემიძლია ეგეც ვიკითხო -->
+
     <section id="slick">
         <div class="multiple-items slider">
             <div class="slider-item">
@@ -97,10 +103,44 @@
             <div class="slider-item">
                 <img class="img-5" src="images/img-5-slider.jpg" alt="img-5-slider">
             </div>
-
         </div>
     </section>
 
+    <!-- section-2 -->
+    <hr>
+    <section class="section-2">
+        <div class="container-1">
+            <hr class="hr-color">
+            <div class="div-text">
+                <h3 class="sec-2-text1">Explore Awesome Products</h3>
+                <h2 class="sec-2-text2">Recommended For You</h2>
+            </div>
+            <div class="div-video">
+                <div class="vid-1">
+                    <video width="243" height="270" controls>
+                        <source class="video-1" src="video/nikeairmax.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid-2">
+                    <video width="243" height="270" controls>
+                        <source class="video-2" src="video/iphone13.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid-3">
+                    <video width="243" height="270" controls>
+                        <source class="video-3" src="video/beko4doorfridgegne134620x584l.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid-4">
+                    <video width="243" height="270" controls>
+                        <source class="video-4" src="video/juviasplaceminipalettes.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- js links -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
