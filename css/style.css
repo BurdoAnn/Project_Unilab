@@ -233,3 +233,31 @@ video {
     width: 100%;
     background-color: rgba(253, 221, 221)
 }
+
+.vid-text1,
+.vid-text2 {
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.vid-text1 {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 450;
+    margin-top: 5px;
+}
+
+.vid-text2 {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: #FF4F04;
+    border-radius: 50%;
+    background-color: #FDD0C9;
+    width: 56px;
+    height: 31px;
+    padding-top: 8px;
+}
