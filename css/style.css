@@ -365,6 +365,10 @@ video {
 
 /*section-4 */
 
+.section-4 {
+    height: 220px;
+}
+
 .rec-container {
     position: relative;
 }
@@ -375,7 +379,7 @@ video {
     font-family: 'roboto';
     font-weight: bold;
     margin-left: 30px;
-    margin-top: 85px;
+    margin-top: 70px;
     line-height: 50px;
     font-size: 35px;
     width: 529px;
@@ -385,7 +389,7 @@ video {
     position: absolute;
     -webkit-filter: brightness(0.4);
     filter: brightness(0.4);
-    height: 251px;
+    height: 220px;
     width: 100%;
 }
 
@@ -409,4 +413,88 @@ video {
 .rec-button:hover {
     background-color: white;
     color: black;
+}
+
+
+/* section-5 */
+
+.discount-shoes {
+    position: relative;
+    height: 680px;
+    margin-top: 53px;
+    margin-left: 128px;
+}
+
+.shoes-1 {
+    position: absolute;
+    width: 255px;
+    height: 313px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.shoes {
+    height: 214px;
+    margin-left: 20px;
+}
+
+.disc-text1 p {
+    margin-top: 30px;
+    margin-left: 27px;
+}
+
+.disc-text1 {
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 450;
+    padding-right: 20px;
+}
+
+.disc-text2 {
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #FF4F04;
+    border-radius: 40%;
+    border: 1px solid #FF0000;
+    background-color: white;
+    width: 45px;
+    height: 25px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.disc-text2:hover {
+    background-color: #FF4F04;
+    color: white;
+}
+
+.shoes-2 {
+    position: absolute;
+    width: 255px;
+    height: 313px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    left: 300px;
+}
+
+.shoes-3 {
+    position: absolute;
+    width: 255px;
+    height: 313px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    top: 380px;
+}
+
+.shoes-4 {
+    position: absolute;
+    width: 255px;
+    height: 313px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    top: 380px;
+    left: 300px;
 }
