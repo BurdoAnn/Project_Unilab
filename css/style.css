@@ -386,6 +386,7 @@ video {
     -webkit-filter: brightness(0.4);
     filter: brightness(0.4);
     height: 251px;
+    width: 100%;
 }
 
 .rec-button {
