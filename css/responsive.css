@@ -46,7 +46,7 @@
         display: none;
     }
     /* .section-3 */
-    .section-3 {
+    .explore-button {
         height: 120px;
     }
     .explore {
@@ -126,7 +126,7 @@
         margin-left: 20px;
     }
     /* section-3 */
-    .section-3 {
+    .explore-button {
         height: 120px;
     }
     .explore {
@@ -299,7 +299,7 @@
         font-size: 14px;
     }
     /* section-3 */
-    .section-3 {
+    .explore-button {
         height: 100px;
     }
     .explore {
@@ -352,7 +352,7 @@
         font-size: 7px;
     }
     /* section-3 */
-    .section-3 {
+    .explore-button {
         height: 70px;
     }
     .explore {

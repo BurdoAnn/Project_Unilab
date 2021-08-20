@@ -347,7 +347,7 @@ video {
 
 /* sectoin-3 */
 
-.section-3 {
+.explore-button {
     height: 162px;
 }
 
@@ -419,7 +419,7 @@ video {
 /* section-5 */
 
 .section-5 {
-    height: 1047px;
+    height: 881px;
 }
 
 .container-2 {
@@ -431,7 +431,7 @@ video {
 .discount-shoes {
     position: absolute;
     height: 680px;
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 60px;
 }
 
@@ -512,7 +512,7 @@ video {
 .pop-shoes {
     position: absolute;
     left: 680px;
-    top: 60px;
+    top: 90px;
     width: 540px;
     height: 680px;
     background-color: #F5F5F5;
@@ -570,7 +570,54 @@ video {
     color: #7A7A7A;
 }
 
-.explore {
+
+/* section-6 */
+
+.section-6 {
+    height: 220px;
+}
+
+.rec-container-2 {
+    position: relative;
+}
+
+.rec-container-2 p {
     position: absolute;
-    margin-top: 120px;
+    color: white;
+    font-family: 'roboto';
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 70px;
+    line-height: 30px;
+    font-size: 35px;
+    width: 529px;
+}
+
+.rec-container-2 .rec-text-2 {
+    margin-top: 150px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.rec-button {
+    position: absolute;
+    background: transparent;
+    height: 56.19px;
+    line-height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    width: 224.22px;
+    font-size: 16px;
+    color: #fff;
+    right: 20px;
+    top: 108px;
+}
+
+.rec-button:hover {
+    background-color: white;
+    color: black;
 }
