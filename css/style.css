@@ -1,5 +1,3 @@
-/* search-header styles */
-
 .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -307,7 +305,8 @@ li a:hover {
 
 video {
     position: relative;
-    height: 100%;
+    height: 270px;
+    height: 243px;
 }
 
 .hr-color {
@@ -623,4 +622,35 @@ video {
 .rec-button:hover {
     background-color: white;
     color: black;
+}
+
+
+/* w-trending */
+
+.w-trending {
+    margin-top: 70px;
+    justify-content: center;
+    height: 730px;
+}
+
+.trend-1-line {
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.trend-1-line img {
+    width: 269px;
+    height: 269px;
+    margin-right: 13px;
+}
+
+.trend-2-line {
+    margin-right: 13px;
+    background-color: black;
+}
+
+.trend-2-line img {
+    width: 269px;
+    height: 269px;
+    margin-right: 13px;
 }
