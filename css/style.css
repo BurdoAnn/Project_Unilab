@@ -349,18 +349,23 @@ video {
 /* sectoin-3 */
 
 .explore-button {
-    height: 162px;
+    display: flex;
+    width: 100%;
+    height: 157px;
+    justify-content: center;
+    align-items: center;
 }
 
 .explore {
+    display: flex;
     background-color: white;
     width: 224.22px;
-    height: 56.19px;
+    height: 57px;
     border-radius: 10px;
     font-family: 'roboto';
     font-size: 16px;
-    margin-top: 50px;
-    margin-left: 500px;
+    padding-top: 15.5px;
+    padding-left: 25px;
 }
 
 
@@ -420,20 +425,35 @@ video {
 /* section-5 */
 
 .section-5 {
-    height: 881px;
+    height: 820px;
+}
+
+.div-text {
+    position: relative;
 }
 
 .container-2 {
     position: relative;
     width: 100%;
     height: 680px;
+    margin-top: 70px;
 }
 
 .discount-shoes {
     position: absolute;
     height: 680px;
-    margin-top: 90px;
     margin-left: 60px;
+    text-align: center;
+}
+
+.discount-shoes p {
+    margin-right: 10px;
+}
+
+.discount-shoes img {
+    width: 214px;
+    height: 214px;
+    margin-top: 5px;
 }
 
 .shoes-1 {
@@ -459,7 +479,7 @@ video {
     height: 313px;
     background-color: #F5F5F5;
     border-radius: 20px;
-    top: 369px;
+    top: 367px;
 }
 
 .shoes-4 {
@@ -468,7 +488,7 @@ video {
     height: 313px;
     background-color: #F5F5F5;
     border-radius: 20px;
-    top: 369px;
+    top: 367px;
     left: 300px;
 }
 
@@ -477,16 +497,13 @@ video {
     margin-left: 20px;
 }
 
-.disc-text1 p {
-    margin-top: 30px;
-}
-
 .disc-text1 {
     display: inline-block;
     font-size: 16px;
     font-family: 'Poppins';
     font-weight: 450;
     margin-left: 10px;
+    margin-top: 30px;
 }
 
 .disc-text2 {
@@ -512,11 +529,15 @@ video {
 .pop-shoes {
     position: absolute;
     left: 680px;
-    top: 90px;
     width: 530px;
-    height: 690px;
+    height: 680px;
     background-color: #F5F5F5;
     border-radius: 20px;
+}
+
+.pop-shoes img {
+    height: 531px;
+    width: 520px;
 }
 
 .pop-sale {
@@ -634,23 +655,114 @@ video {
 }
 
 .trend-1-line {
+    display: flex;
+    height: 365px;
     justify-content: center;
-    background-color: blueviolet;
+    justify-content: space-around;
+}
+
+.w-trend-item {
+    display: flex;
+    flex-direction: column;
 }
 
 .trend-1-line img {
+    display: flex;
     width: 269px;
     height: 269px;
     margin-right: 13px;
+    object-fit: cover;
+    object-position: 0% 70%;
+    border-radius: 15px;
+}
+
+.trend-1-line p {
+    margin-top: 10px;
+}
+
+.w-trend-text-1 {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.w-price {
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #FF4F04;
+    border-radius: 40%;
+    border: 1px solid #FF0000;
+    background-color: white;
+    width: 50px;
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+.w-price:hover {
+    background-color: #FF4F04;
+    color: white;
 }
 
 .trend-2-line {
-    margin-right: 13px;
-    background-color: black;
+    display: flex;
+    height: 365px;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .trend-2-line img {
+    display: flex;
     width: 269px;
     height: 269px;
     margin-right: 13px;
+    object-fit: cover;
+    object-position: 0% 70%;
+    border-radius: 15px;
+}
+
+.trend-2-line p {
+    margin-top: 10px;
+}
+
+.w-trend-item-6 {
+    background-color: #e9dfd5;
+}
+
+
+/* section-8 */
+
+.section-8-img {
+    position: absolute;
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4);
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* footer */
+
+.footer {
+    position: relative;
+    display: flex;
+    height: 326px;
+    margin-top: 260px;
+}
+
+.slogan {
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    color: #F77C7C;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 200px;
 }
