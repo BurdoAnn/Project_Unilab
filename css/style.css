@@ -748,8 +748,17 @@ video {
 .footer {
     position: relative;
     display: flex;
-    height: 326px;
-    margin-top: 260px;
+    height: 200px;
+    margin-top: 240px;
+}
+
+.footer h5 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.logo-slogan {
+    margin-left: 40px;
 }
 
 .slogan {
@@ -757,12 +766,35 @@ video {
     font-family: 'Segoe UI';
     color: #F77C7C;
     margin-left: 10px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .product {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     margin-left: 200px;
+    justify-content: space-around;
+    height: 193px;
+    font-family: 'Segoe UI';
+}
+
+.legals {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 91px;
+    justify-content: space-around;
+    font-family: 'Segoe UI';
+}
+
+.contacts {
+    margin-left: 70px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    width: 255px;
+    justify-content: space-between;
+    font-family: 'Segoe UI';
+    font-size: 14px;
 }
