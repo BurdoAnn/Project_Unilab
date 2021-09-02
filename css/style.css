@@ -167,6 +167,7 @@ li a:hover {
 
 .toggle-menu {
     display: inline-block;
+    position: sticky;
 }
 
 
@@ -298,7 +299,6 @@ li a:hover {
     -ms-flex-align: center;
     align-items: center;
     height: 372px;
-    margin-left: 24px;
     margin-right: 24px;
     width: 100%;
 }
@@ -349,14 +349,22 @@ video {
 /* sectoin-3 */
 
 .explore-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 157px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .explore {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: white;
     width: 224.22px;
@@ -385,7 +393,7 @@ video {
     font-family: 'roboto';
     font-weight: bold;
     margin-left: 30px;
-    margin-top: 70px;
+    margin-top: 50px;
     line-height: 50px;
     font-size: 35px;
     width: 529px;
@@ -413,7 +421,6 @@ video {
     font-size: 16px;
     color: #fff;
     right: 20px;
-    top: 108px;
 }
 
 .rec-button:hover {
@@ -650,28 +657,44 @@ video {
 
 .w-trending {
     margin-top: 70px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: 730px;
 }
 
 .trend-1-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 365px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
 .w-trend-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .trend-1-line img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 269px;
     height: 269px;
     margin-right: 13px;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: 0% 70%;
     object-position: 0% 70%;
     border-radius: 15px;
 }
@@ -706,18 +729,27 @@ video {
 }
 
 .trend-2-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 365px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
 .trend-2-line img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 269px;
     height: 269px;
     margin-right: 13px;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: 0% 70%;
     object-position: 0% 70%;
     border-radius: 15px;
 }
@@ -739,6 +771,7 @@ video {
     filter: brightness(0.4);
     height: 220px;
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -747,6 +780,8 @@ video {
 
 .footer {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 200px;
     margin-top: 240px;
@@ -761,6 +796,10 @@ video {
     margin-left: 40px;
 }
 
+.footer a {
+    color: black;
+}
+
 .slogan {
     font-size: 40px;
     font-family: 'Segoe UI';
@@ -770,9 +809,15 @@ video {
 }
 
 .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 200px;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     height: 193px;
     font-family: 'Segoe UI';
@@ -780,9 +825,15 @@ video {
 
 .legals {
     margin-left: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 91px;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     font-family: 'Segoe UI';
 }
@@ -790,10 +841,17 @@ video {
 .contacts {
     margin-left: 70px;
     margin-top: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 165px;
     width: 255px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: 'Segoe UI';
     font-size: 14px;
