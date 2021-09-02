@@ -534,7 +534,7 @@ video {
 }
 
 .pop-shoes {
-    position: absolute;
+    position: relative;
     left: 680px;
     width: 530px;
     height: 680px;
@@ -543,8 +543,9 @@ video {
 }
 
 .pop-shoes img {
-    height: 531px;
+    height: 500px;
     width: 520px;
+    margin-top: 20px;
 }
 
 .pop-sale {
@@ -556,7 +557,6 @@ video {
     background-color: black;
     width: 83px;
     height: 30px;
-    margin-top: 20px;
     margin-left: 20px;
     padding-top: 7px;
     padding-left: 4px;
