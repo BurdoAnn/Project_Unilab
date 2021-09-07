@@ -856,3 +856,10 @@ video {
     font-family: 'Segoe UI';
     font-size: 14px;
 }
+
+
+/* slider-2 */
+
+.section-5-slider {
+    display: none;
+}
