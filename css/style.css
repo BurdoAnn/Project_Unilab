@@ -866,3 +866,7 @@ video {
 
 
 /* section-7-slider */
+
+.slider-3 {
+    display: none;
+}

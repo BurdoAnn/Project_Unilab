@@ -72,3 +72,37 @@ $(function() {
         ]
     })
 })
+
+
+$(function() {
+    $('.fade').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 5,
+        autoplay: true,
+        dots: true,
+        swipe: true,
+        centerMode: true,
+
+
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    })
+})
