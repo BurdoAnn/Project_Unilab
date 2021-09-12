@@ -779,82 +779,71 @@ video {
 /* footer */
 
 .footer {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 200px;
     margin-top: 240px;
 }
 
-.footer h5 {
-    font-size: 17px;
-    font-weight: bold;
-}
-
 .logo-slogan {
+    display: flex;
     margin-left: 40px;
+    flex-direction: column;
+    line-height: 10px;
 }
 
-.footer a {
-    color: black;
+.f-logo {
+    display: flex;
 }
 
 .slogan {
+    display: flex;
     font-size: 40px;
     font-family: 'Segoe UI';
-    color: #F77C7C;
-    margin-left: 10px;
-    margin-top: 20px;
+    color: #FF0000;
 }
 
-.product {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.f-header {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    margin-left: 200px;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    height: 193px;
-    font-family: 'Segoe UI';
-}
-
-.legals {
-    margin-left: 70px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    height: 91px;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
     font-family: 'Segoe UI';
 }
 
 .contacts {
-    margin-left: 70px;
-    margin-top: 7px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    height: 70px;
+}
+
+.contacts:hover .contact-drop {
+    display: block;
+}
+
+.fa-phone {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    height: 165px;
-    width: 255px;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-family: 'Segoe UI';
-    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.fa-phone p {
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.fa-envelope-open {
+    display: flex;
+}
+
+.fa-envelope-open p {
+    margin-left: 10px;
 }
 
 
