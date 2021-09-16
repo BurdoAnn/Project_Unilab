@@ -186,12 +186,13 @@ li a:hover {
     display: -ms-flexbox;
     display: flex;
     height: 405px;
+    width: 100%;
 }
 
 .slider-item {
     height: 32vw;
     min-height: 8vw;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .slider-item img {
@@ -204,6 +205,7 @@ li a:hover {
 .img-5 {
     -o-object-position: 5% 60%;
     object-position: 5% 60%;
+    width: 100%;
 }
 
 .slider-text {
@@ -922,7 +924,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.search {
+.footer-search {
     width: 100%;
     position: relative;
     display: flex;
@@ -930,7 +932,7 @@ body {
     margin-top: 50px;
 }
 
-.searchTerm {
+.searchterm {
     width: 100%;
     border: 3px solid #f04b4b;
     border-right: none;
